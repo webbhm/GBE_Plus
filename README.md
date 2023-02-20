@@ -3,9 +3,9 @@ GBE Plus is an enhancement to the GBE Pico Controller.  There are two versions, 
 and interaccts with the Pico as an IOT sensor.
 ## Modes
 ### "AeroGarden" Mode
-In this mode the Pico is stand-alone.  Settings default to 14 hours photo-period, and the light turns on based on the time the unit is plugged in.
+In this mode the Pico is stand-alone, and enhanced version of what they have currently designed.  Settings default to 14 hours photo-period, and the light turns on based on the time the unit is plugged in.
 There is no automatic logging of sensor data, but it is possible to wifi connect to the Pico to see and copy the sensor data.  This is the default start-up mode.
-It is also possible to set the clock and light settings via wifi, wiile in stand-alone mode.
+It is also possible to set the clock and light settings via wifi, wiile in stand-alone mode.  It would be possible to have a menu to shut-off the Soft-Spot, and have the Pico send data via wifi to Fairchild (as it currently does).
 ### IOT Mode
 In this mode the Pico acts similar an IOT (internet of things) device.  The Pico is connected to a Raspberry Pi via wifi and acts as a remote sensor.
 The Raspberry Pi communicataes with the Pico, setting the clock and pulling sensor data.  The Raspberry Pi logs the Pico sensors (and the Raspberry Pi sensors) to MongoDB where the data can be pulled and displayed in charts.
