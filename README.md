@@ -1,7 +1,7 @@
 # GBE_Plus
-GBE Plus is an enhancement to the GBE Pico Controller.  There are two versions, the GBE_Plus Pico by itself, and the GBE-Plus Pico with a Raspberry Pi.  THe Raspberry Pi adds additional sensors and a camera,
-and interaccts with the Pico as an IOT sensor.
-Both versions have the same hardware and software.  The Pico starts up as a CaptivePortal, a wifi-hotspot that hosts a set of web pages.  The pages allow for setting the time (RTC), light settings and photoperiod, and changing the domain name.  A dashboard page gives all the current data.  A http request can retreive the data.
+GBE Plus is an enhancement to the GBE Pico Controller.  There are two versions, the GBE_Plus Pico by itself, and the GBE-Plus Pico with a Raspberry Pi.  THe Raspberry Pi adds additional sensors and a camera, and interaccts with the Pico as an IOT sensor.
+Both versions have the same hardware and software.  The Pico starts up as a CaptivePortal, a wifi-hotspot that hosts a set of web pages.  The pages allow for setting the time (RTC), light settings and photoperiod, and changing the domain name.  A dashboard page gives all the current data.  A http request can retreive the data.</br>
+Power can be supplied via the usb, or an external power feed (5v).  In the GBE, power will come off of the 20v power supply.  5v is needed to power the NeoPixel.  An external RTC (real time clock) avoids the need to reset the time after a power failure (but serves no other use).  It currently has the SHTC3 temperature and humidity sensor.
 ## Modes
 ### Stand-Alone Mode
 There is no automatic logging of sensor data, but it is possible to wifi connect to the Pico to see and copy the sensor data (via the dashboard).
