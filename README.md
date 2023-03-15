@@ -17,5 +17,15 @@ The Raspberry Pi logs the Pico sensors (and the Raspberry Pi sensors) to MongoDB
 ## Set-Up
 When powered on, the Pico acts as a wifi 'Hot Spot', it is a wifi access point that any computer or phone may log onto.  When logged in, the Home page should automatically show up on the browser.
 From the Home page, there are pages to set the time, lights-on time and photo-period.  There is also a page for seeing the current sensor data.
+## Screens
+### Set Location
+Define the farm (school, district, organization) where the box is located).  Give it an ID (abbreviated unique identifier) and name (full name of organization).
+Define the field - give your box a name.  The ID will be populated with the Pico unique number.
+### Set Time
+Needed only for Stand Alone mode.  Wifi connection will set the time from the internet.  This does not have to be precise, just a 'ball park' setting.
+### Dashboard
+Summary page of the Pico and current sensor readings.
+### Set Portal
+Probably not needed.  Allows you to give a different name to the portal to avoid conflicts with multiple Picos running in Stand Alone at the same time.
 ## Issues to be resolved
 1)
